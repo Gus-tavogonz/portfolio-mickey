@@ -1,4 +1,4 @@
-;(function(factory) {
+(function(factory) {
     if (typeof module === 'object' && typeof module.exports === 'object') {
         module.exports = factory(require('jquery'), window, document)
     } else {

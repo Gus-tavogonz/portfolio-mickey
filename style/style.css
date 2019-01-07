@@ -38,8 +38,31 @@ margin-top: 10px;
 
 }
 
-.nav-item{
+.about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
+.gallery{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.i-image{
+margin-bottom: 12px;
+}
+
+.contact{
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.p-center{
+    padding-top: 50px;
+    text-align: center;
+    margin: auto;
 }
 
 
