@@ -26,13 +26,20 @@
  
     <!-----CHOCOLAT LIGHTBOX!-->
     <script type="text/javascript" src="./assets/js/jquery.chocolat.js"></script>
+    <script type="text/javascript" src="./assets/js/javascript.js"></script>
+
     <link rel="stylesheet" href="./style/chocolat.css" type="text/css" media="screen" charset="utf-8">
 
-
-    
+    <!----Animate on Scroll!!!!-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   
     <title>Reel&Portofolio</title>
 </head>
 <body>
+        <script>
+                AOS.init();
+        </script>
     <div class="section-navbar">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
@@ -44,16 +51,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link about-click" href="">About</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Photography</a>
+                    <a class="nav-link gallery-click" href="">Photography</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link contact-click" href="">Contact</a>
                     </li>
                            
                     <li class="nav-item">
@@ -87,12 +94,12 @@
 
 
     <!-----ABout GOES HERE!!!-->
-    <div class="container">
+    <div class="container" id="about-section" data-aos="fade-up">
     
-        <div class="row about">
-            <div class="col-md-4">
+        <div class="row about" >
+            <div class="col-md-4" >
                     <h1>About</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <p class="about-section">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     In at nesciunt consequuntur, exercitationem, vero magni 
                     dolore non ex atque ut debitis aspernatur. Officia dolore
                      sint praesentium, nemo sequi eius eum.</p>
@@ -107,8 +114,8 @@
 
 
     <!------GALLERY GOES HERE!!!-->
-    <div class="container gallery">
-        <h1>Gallery!!!</h1>
+    <div class="container gallery " id="gallery-section">
+        <h1>Gallery</h1>
         <div class="row chocolat-parent" data-chocolat-title="set title">
             <div class="col-md-3 i-image" >
                 <a class=" chocolat-image" href="https://offshore.gg/wp-content/uploads/2017/10/Image-Placeholder-300px.jpg" title="caption image 1">
@@ -196,7 +203,7 @@
     <!-----GALLERY ENDS HERE-->
 
     <!---Contact GOES HERE-->
-    <div class="row">
+    <div class="row" id="contact-section">
         <div class="container">
           
 
@@ -215,12 +222,8 @@
         </div>
     </div>
 
-<div class="row">
-    <div class="container">
-        <h1> 
-            footer goes here!
-        </h1>
-    </div>
+<div class="jumbotron footer">
+
 </div>
 
     
@@ -229,6 +232,8 @@
             $('.chocolat-parent').Chocolat();
             });
     </script>
+
+   
        
 
 

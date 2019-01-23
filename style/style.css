@@ -2,6 +2,12 @@
     
 }
 
+
+.about-section{
+    text-align: justify;
+    
+}
+
 nav{
 background: transparent; 
 margin-top: 10px; 
@@ -91,3 +97,7 @@ margin-bottom: 12px;
     position: relative;
   }
   
+
+  .footer{
+      background-color: gray;
+  }
