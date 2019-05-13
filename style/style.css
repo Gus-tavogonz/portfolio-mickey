@@ -55,6 +55,14 @@ margin-top: 10px;
 
 }
 
+.video-title{
+    text-align: center;
+}
+
+.description-center{
+    text-align: center;
+}
+
 .about{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -65,6 +73,9 @@ margin-top: 10px;
     padding-bottom: 50px;
 }
 
+.video-still{
+   
+}
 
 .i-image{
 margin-bottom: 12px;
