@@ -1,7 +1,18 @@
-.section-navbar{
-    
+.display-4{
+    text-align: center;
 }
 
+.lead{
+    text-align: center;
+}
+
+.watch-reel{
+    text-align: center;
+    display: block;
+    width: 200px;
+    position: inherit;
+    margin: auto;
+}
 
 .about-section{
     text-align: justify;
