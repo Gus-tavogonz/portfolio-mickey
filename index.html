@@ -108,7 +108,7 @@
         <div class="row">
             <div class="col-md-4 i-image video-still">
                    
-                <a class="chocolat-image" href="http://placehold.jp/350x200.png" title="caption image 1">
+                <a class="chocolat-image video-btn" href="http://placehold.jp/350x200.png" title="caption image 1"  data-toggle="modal" data-src="https://player.vimeo.com/video/292435508?badge=0" data-target="#myModal">
                     <img src="http://placehold.jp/370x200.png"  alt="">
                 </a>
 
@@ -116,57 +116,33 @@
                     Title (year)
                     <hr>
                     <p class="description-center">Description Starts Here</p>
-                </p>
-         
-                        
+                </p>                        
             </div>
-
-            <div class="col-md-4 i-image video-still">
-                   
-                    <a class="chocolat-image" href="http://placehold.jp/350x200.png" title="caption image 1">
-                        <img src="http://placehold.jp/370x200.png"  alt="">
-                    </a>
-                            
-            </div>
-
-            
-            <div class="col-md-4 i-image video-still">
-                   
-                    <a class="chocolat-image" href="http://placehold.jp/350x200.png" title="caption image 1">
-                        <img src="http://placehold.jp/370x200.png"  alt="">
-                    </a>
-                            
-            </div>
-
-            <div class="col-md-4 i-image video-still">
-                   
-                    <a class="chocolat-image" href="http://placehold.jp/350x200.png" title="caption image 1">
-                        <img src="http://placehold.jp/370x200.png"  alt="">
-                    </a>
-                            
-                </div>
-    
-                <div class="col-md-4 i-image video-still">
-                       
-                        <a class="chocolat-image" href="http://placehold.jp/350x200.png" title="caption image 1">
-                            <img src="http://placehold.jp/370x200.png"  alt="">
-                        </a>
-                                
-                </div>
-    
-                
-                <div class="col-md-4 i-image video-still">
-                       
-                        <a class="chocolat-image" href="http://placehold.jp/350x200.png" title="caption image 1">
-                            <img src="http://placehold.jp/370x200.png"  alt="">
-                        </a>
-                                
-                </div>
-
         </div>
     </div>
 
-    <!-----ABout ENDS HERE!!!-->
+    <!----MODAL FOR VIDEOS STARTS HERE!!-->
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+          
+                
+                <div class="modal-body">
+          
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>        
+                  <!-- 16:9 aspect ratio -->
+                <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always"></iframe>
+                </div>        
+                </div>
+                </div>
+            </div>
+    </div>
+
+    <!-----MODALS FOR VIDEOS ENDS HERE!!-->
 
 
     <!------GALLERY GOES HERE!!!-->
@@ -246,14 +222,7 @@
                     </a>
         </div>
 
-        
-   
-   
         </div>
-
-        
-   
-   
    
     </div>
     <!-----GALLERY ENDS HERE-->

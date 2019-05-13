@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+    console.log("ready")
+
     $(".about-click").click(function(){
         event.preventDefault();
         console.log("you clicked services!")
@@ -26,10 +28,19 @@ $(document).ready(function(){
         }, 750)
     })
 
-
-
-
-
+    var videoSrc;  
+    $('.video-btn').click(function() {
+       
+        event.preventDefault();
+        videoSrc = $(this).data( "src" );
+        console.log(videoSrc);
+        $("#video").attr("src",videoSrc)
+        })
+    
+    $(".close").on("click", function(){
+        var blank = "";
+        $("#video").attr("src", blank )
+    })
 
 
 })
