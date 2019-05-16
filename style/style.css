@@ -28,9 +28,12 @@
 
 .display-4{
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .lead{
+    font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 
@@ -40,6 +43,17 @@
     width: 200px;
     position: inherit;
     margin: auto;
+    
+}
+.btn-primary{
+    background-color: transparent;
+    border-color: #828282;
+    
+}
+
+.btn-primary:hover{
+    background-color: transparent;
+    border-color:white;
 }
 
 .about-section{
@@ -127,15 +141,17 @@ margin-bottom: 12px;
 }
 
 .contact{
-    text-align: center;
-    margin: auto;
     padding-top: 50px;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .p-center{
-    padding-top: 50px;
+   
     text-align: center;
     margin: auto;
+    font-weight: bold;
 }
 
 
