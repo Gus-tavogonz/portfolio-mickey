@@ -87,6 +87,23 @@ margin-top: 10px;
     text-align: center;
 }
 
+.recent-title{
+    text-align: center;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.gallery-title{
+    text-align: center;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about-title{
+    text-align: center;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+}
 .description-center{
     text-align: center;
 }
