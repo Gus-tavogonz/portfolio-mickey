@@ -2,6 +2,9 @@ $(document).ready(function(){
 
     console.log("ready")
 
+
+   
+
     $(".about-click").click(function(){
         event.preventDefault();
         console.log("you clicked services!")
@@ -26,6 +29,14 @@ $(document).ready(function(){
         $("html, body").animate({
             scrollTop:$("#contact-section").offset().top
         }, 750)
+    })
+
+    $(".recent-click").click(function(){
+        event.preventDefault();
+        console.log("you clicked recent work!")
+        $("html, body").animate({
+            scrollTop:$("#recent").offset().top
+        },750)
     })
 
     var videoSrc;  

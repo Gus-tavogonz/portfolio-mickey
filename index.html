@@ -23,6 +23,7 @@
     <!--fonts by GUS.TAVO-->
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700" rel="stylesheet">
 
  
     <!-----CHOCOLAT LIGHTBOX!-->
@@ -54,12 +55,17 @@
                     <li class="nav-item active">
                     <a class="nav-link" href="">Home<span class="sr-only">(current)</span></a>
                     </li>
+
                     <li class="nav-item">
-                    <a class="nav-link about-click" href="">About</a>
+                    <a class="nav-link recent-click" href="">Recent Work</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link gallery-click" href="">Photography</a>
                     </li>
+                    <li class="nav-item">
+                    <a class="nav-link about-click" href="">About</a>
+                    </li>
+                    
                     <li class="nav-item">
                     <a class="nav-link contact-click" href="">Contact</a>
                     </li>
@@ -101,12 +107,12 @@
 
 
     <!-----ABout GOES HERE!!!-->
-    <div class="container">
+    <div class="container" id="recent">
         
             <h1>Recent Work</h1>
         
 
-        <div class="row">
+        <div class="row" >
             <div class="col-md-4 i-image video-still">
                    
                 <a class="chocolat-image video-btn" href="http://placehold.jp/350x200.png" title="caption image 1"  data-toggle="modal" data-src="https://player.vimeo.com/video/292435508?badge=0" data-target="#myModal">
@@ -119,32 +125,80 @@
                     <p class="description-center">Description Starts Here</p>
                 </p>                        
             </div>
+
+            <div class="col-md-4 i-image video-still">
+                   
+                <a class="chocolat-image video-btn" href="http://placehold.jp/350x200.png" title="caption image 1"  data-toggle="modal" data-src="https://player.vimeo.com/video/292435508?badge=0" data-target="#myModal">
+                    <img src="http://placehold.jp/370x200.png"  alt="">
+                </a>
+
+                <p class="video-title">
+                    Title (year)
+                    <hr>
+                    <p class="description-center">Description Starts Here</p>
+                </p>                        
+            </div>
+
+
+            <div class="col-md-4 i-image video-still">
+                   
+                <a class="chocolat-image video-btn" href="http://placehold.jp/350x200.png" title="caption image 1"  data-toggle="modal" data-src="https://player.vimeo.com/video/292435508?badge=0" data-target="#myModal">
+                    <img src="http://placehold.jp/370x200.png"  alt="">
+                </a>
+
+                <p class="video-title">
+                    Title (year)
+                    <hr>
+                    <p class="description-center">Description Starts Here</p>
+                </p>                        
+            </div>
+
+
+
+            <div class="col-md-4 i-image video-still">
+                   
+                <a class="chocolat-image video-btn" href="http://placehold.jp/350x200.png" title="caption image 1"  data-toggle="modal" data-src="https://player.vimeo.com/video/292435508?badge=0" data-target="#myModal">
+                    <img src="http://placehold.jp/370x200.png"  alt="">
+                </a>
+
+                <p class="video-title">
+                    Title (year)
+                    <hr>
+                    <p class="description-center">Description Starts Here</p>
+                </p>                        
+            </div>
+
+            <div class="col-md-4 i-image video-still">
+                   
+                <a class="chocolat-image video-btn" href="http://placehold.jp/350x200.png" title="caption image 1"  data-toggle="modal" data-src="https://player.vimeo.com/video/292435508?badge=0" data-target="#myModal">
+                    <img src="http://placehold.jp/370x200.png"  alt="">
+                </a>
+
+                <p class="video-title">
+                    Title (year)
+                    <hr>
+                    <p class="description-center">Description Starts Here</p>
+                </p>                        
+            </div>
+
+
+            <div class="col-md-4 i-image video-still">
+                   
+                <a class="chocolat-image video-btn" href="http://placehold.jp/350x200.png" title="caption image 1"  data-toggle="modal" data-src="https://player.vimeo.com/video/292435508?badge=0" data-target="#myModal">
+                    <img src="http://placehold.jp/370x200.png"  alt="">
+                </a>
+
+                <p class="video-title">
+                    Title (year)
+                    <hr>
+                    <p class="description-center">Description Starts Here</p>
+                </p>                        
+            </div>
+
+
+
         </div>
     </div>
-
-    <!----MODAL FOR VIDEOS STARTS HERE!!-->
-
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-          
-                
-                <div class="modal-body">
-          
-                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>        
-                  <!-- 16:9 aspect ratio -->
-                <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always"></iframe>
-                </div>        
-                </div>
-                </div>
-            </div>
-    </div>
-
-    <!-----MODALS FOR VIDEOS ENDS HERE!!-->
-
 
     <!------GALLERY GOES HERE!!!-->
     <div class="container gallery " id="gallery-section">
@@ -228,6 +282,36 @@
     </div>
     <!-----GALLERY ENDS HERE-->
 
+    <!-----ABOUT SECTION-->
+
+    <div class="container" id="about-section">
+        <div class="row">
+            <div class="col-md-6">  
+                <h1>About</h1>
+                <p>THIS is the about section</p>
+            </div>
+
+            <div class="col-md-6">
+                <a class="chocolat-image video-btn" href="http://placehold.jp/500x500.png" title="caption image 1"  data-toggle="modal" data-src="https://player.vimeo.com/video/292435508?badge=0" data-target="#myModal">
+                    <img src="http://placehold.jp/550x550.png"  alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!----ABOUT ENDS HERE-->
+
+
+
+
+
     <!---Contact GOES HERE-->
     <div class="container" id="contact-section">
         <div class="row">
@@ -247,6 +331,30 @@
 
         </div>
     </div>
+
+    
+    <!----MODAL FOR VIDEOS STARTS HERE!!-->
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+      
+            
+            <div class="modal-body">
+      
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>        
+              <!-- 16:9 aspect ratio -->
+            <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always"></iframe>
+            </div>        
+            </div>
+            </div>
+        </div>
+</div>
+
+<!-----MODALS FOR VIDEOS ENDS HERE!!-->
 
 <div class="jumbotron footer">
 
