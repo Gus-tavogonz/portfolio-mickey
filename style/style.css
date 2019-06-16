@@ -210,6 +210,17 @@ margin-bottom: 12px;
         margin:auto;
         
     }
+
+    .col-md-4{
+        margin: auto;
+        align-content: center;
+    }
+
+    .image-still{
+        align-content: center;
+        margin: auto;
+        display: block
+  }
    
     .click{
         font-size: 25px;
