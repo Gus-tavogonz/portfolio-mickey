@@ -63,7 +63,7 @@
 
 nav{
 background: transparent; 
-margin-top: 10px; 
+
 }
 
 .navbar{
@@ -78,6 +78,23 @@ margin-top: 10px;
     
 }
 
+.nav-item{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+   
+    
+}
+
+.nav-item:hover{
+    font-family:'Roboto', sans-serif;
+    border-bottom: 2px solid;
+    border-bottom-color: #000000;
+
+        
+}
+
+
+
 .branding-orange{
     color:#828282;
 
@@ -87,15 +104,7 @@ margin-top: 10px;
 }
 
 
-.collapse{
-    float: right;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    padding: 20px;
-    padding-left: 10px;
-    margin-left: 30px;
 
-}
 
 .video-title{
     text-align: center;
@@ -191,6 +200,41 @@ margin-bottom: 12px;
 
 
   
+
+
+  @media only screen and (max-width: 767px) {
+    .navbar-brand{
+        font-size: 20px;
+    }
+    body{
+        margin:auto;
+        
+    }
+   
+    .click{
+        font-size: 25px;
+        padding: 2px;
+        margin: auto;
+    }
+    .column1{
+    padding-left: 20px;
+    margin-left: 140px;
+
+    }
+    .about{
+        height: 800px;
+    }
+    .cell-container{
+        height: auto;
+        align-content: center;
+        margin:auto;
+       width: 50%;
+       margin-left: 6px;
+
+    }
+}
+
+
 
 
 
